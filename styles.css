@@ -1,0 +1,60 @@
+body {
+    background: url("https://athleticsweekly.com/wp-content/uploads/2020/02/athletics-track-by-austris-augusts-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+    font-family: "Trebuchet MS";
+    padding: 20px;
+    color: white;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+.survey {
+    width: 80%;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 2em auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+fieldset {
+    border: none;
+    padding: 2em 0;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 10px;
+}
+
+input,
+select,
+textarea {
+    margin: 10px 0;
+    width: 100%;
+    min-height: 2em;
+    font-family: "Trebuchet MS";
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    background: #04AA6D;
+    color: white;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}

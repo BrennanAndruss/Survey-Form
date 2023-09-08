@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Poway Track and Field Questionaire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Poway Track and Field Questionaire</h1>
+    <p id="description">Thank you for completing our questionaire</p>
+    <div class="survey">
+        <form id="survey-form">
+            <h1>Personal Information</h1>
+            <fieldset>
+                <label for="name" id="name-label">Name <input id="name" name="name" type="text"
+                        placeholder="Enter your full name" required /></label>
+                <label for="email" id="email-label">Email <input id="email" name="email" type="email"
+                        placeholder="Enter your personal email" required /> </label>
+                <label for="number" id="number-label">Grade <input id="number" name="number" type="number" min="9"
+                        max="12" placeholder="9-12 " required /></label>
+                <label id="gender-label">Gender
+                    <label for="male"><input id="male" type="radio" name="gender" class="inline" value="1" />
+                        Male</label>
+                    <label for="female"><input id="female" type="radio" name="gender" class="inline" value="2" />
+                        Female</label>
+                    <label for="other"><input id="other" type="radio" name="gender" class="inline" value="3" />
+                        Other</label>
+                </label>
+            </fieldset>
+            <h1>Athletic Information</h1>
+            <fieldset>
+                <label id="events-label">Which events are you interested in?
+                    <label for="sprints"><input id="sprints" type="checkbox" name="event" class="inline" value="1" />
+                        Sprints</label>
+                    <label for="distance"><input id="distance" type="checkbox" name="event" class="inline" value="2" />
+                        Distance</label>
+                    <label for="hurdles"><input id="hurdles" type="checkbox" name="event" class="inline" value="3" />
+                        Hurdles</label>
+                    <label for="jumps"><input id="jumps" type="checkbox" name="event" class="inline" value="3" />
+                        Jumps</label>
+                    <label for="pole-vault"><input id="pole-vault" type="checkbox" name="event" class="inline"
+                            value="4" /> Pole Vault</label>
+                    <label for="throws"><input id="throws" type="checkbox" name="event" class="inline" value="5" />
+                        Throws</label>
+                </label>
+                <label id="main-event-label">What is your primary event?
+                    <select id="dropdown" name="main-event">
+                        <option value="">Select an event</option>
+                        <option value="1">100m</option>
+                        <option value="2">200m</option>
+                        <option value="3">400m</option>
+                        <option value="4">800m</option>
+                        <option value="5">1600m</option>
+                        <option value="6">3200m</option>
+                        <option value="7">100/110m Hurdles</option>
+                        <option value="8">300m Hurdles</option>
+                        <option value="9">Long Jump</option>
+                        <option value="10">High Jump</option>
+                        <option value="11">Triple Jump</option>
+                        <option value="12">Pole Vault</option>
+                        <option value="13">Shot Put</option>
+                        <option value="14">Discus</option>
+                    </select>
+                </label>
+                <label id="secondary-event-label">What is your secondary event?
+                    <select id="dropdown" name="secondary-event">
+                        <option value="">Select an event</option>
+                        <option value="1">100m</option>
+                        <option value="2">200m</option>
+                        <option value="3">400m</option>
+                        <option value="4">800m</option>
+                        <option value="5">1600m</option>
+                        <option value="6">3200m</option>
+                        <option value="7">100/110m Hurdles</option>
+                        <option value="8">300m Hurdles</option>
+                        <option value="9">Long Jump</option>
+                        <option value="10">High Jump</option>
+                        <option value="11">Triple Jump</option>
+                        <option value="12">Pole Vault</option>
+                        <option value="13">Shot Put</option>
+                        <option value="14">Discus</option>
+                        <option value="15">None</option>
+                    </select>
+                </label>
+                <label id="relays-label">Which relays are you interested in?
+                    <label for="4x1-relay"><input id="4x1-relay" type="checkbox" name="relay" class="inline"
+                            value="1" /> 4x100m</label>
+                    <label for="4x4-relay"><input id="4x4-relay" type="checkbox" name="relay" class="inline"
+                            value="2" /> 4x400m</label>
+                    <label for="4x8-relay"><input id="4x8-relay" type="checkbox" name="relay" class="inline"
+                            value="3" /> 4x800m</label>
+                </label>
+                <label id="experience-label">Do you have prior track and field experience?
+                    <textarea id="experience" name="experience" row="3" cols="30"
+                        placeholder="Explain any prior track and field experience"></textarea>
+                </label>
+                <label id="sports-label">Do you have prior experience with other sports?
+                    <textarea id="sports" name="sports" row="3" cols="30"
+                        placeholder="Explain any other sports experiences"></textarea>
+                </label>
+            </fieldset>
+            <input id="submit" type="submit" />
+        </form>
+    </div>
+</body>
+
+</html>
